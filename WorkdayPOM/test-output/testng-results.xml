@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8296" started-at="2020-03-25T19:11:51 IST" finished-at="2020-03-25T19:11:59 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8296" started-at="2020-03-25T19:11:51 IST" finished-at="2020-03-25T19:11:59 IST">
+      <class name="WorkdayTC.LoginPageTC">
+        <test-method status="PASS" signature="beforesuit()[pri:0, instance:WorkdayTC.LoginPageTC@30b8a058]" name="beforesuit" is-config="true" duration-ms="73" started-at="2020-03-25T19:11:51 IST" finished-at="2020-03-25T19:11:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuit -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:WorkdayTC.LoginPageTC@30b8a058]" name="beforeTest" is-config="true" duration-ms="8243" started-at="2020-03-25T19:11:51 IST" finished-at="2020-03-25T19:11:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforMethod(java.lang.reflect.Method)[pri:0, instance:WorkdayTC.LoginPageTC@30b8a058]" name="beforMethod" is-config="true" duration-ms="1" started-at="2020-03-25T19:11:59 IST" finished-at="2020-03-25T19:11:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void WorkdayTC.LoginPageTC.verifytitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforMethod -->
+        <test-method status="PASS" signature="verifytitle()[pri:1, instance:WorkdayTC.LoginPageTC@30b8a058]" name="verifytitle" duration-ms="34" started-at="2020-03-25T19:11:59 IST" finished-at="2020-03-25T19:11:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytitle -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:WorkdayTC.LoginPageTC@30b8a058]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-03-25T19:11:59 IST" finished-at="2020-03-25T19:11:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifytitle status=SUCCESS method=LoginPageTC.verifytitle()[pri:1, instance:WorkdayTC.LoginPageTC@30b8a058] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- WorkdayTC.LoginPageTC -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
